@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import os
+import django_heroku 
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', 'no-secret-key-found')
@@ -145,3 +147,5 @@ TINYMCE_DEFAULT_CONFIG = {
     'menubar': True,
     'statusbar': True,
 }
+
+django_heroku.settings(locals())
