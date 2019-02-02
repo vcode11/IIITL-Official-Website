@@ -1,1 +1,1 @@
-web: gunicorn iiitl_website.wsgi --log-file -
+web: gunicorn iiitl_website.iiitl_website.wsgi --log-file -
