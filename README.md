@@ -7,6 +7,8 @@
 
 This is the repository for official website of **Indian Institute of Information Technology Lucknow**.
 
+**heroku-deployment** branch is deployed on heroku for Continuous Delivery: https://iiitl-website.herokuapp.com/.
+
 ## Setup
 
 1. Clone this repo: `git clone https://github.com/dojutsu-user/IIITL-Official-Website.git`.
