@@ -8,3 +8,7 @@ branches:
   only:
   - master
   - heroku-deployment
+matrix:
+  include:
+    - python: 3.6
+    - env: TOXENV=migrations
