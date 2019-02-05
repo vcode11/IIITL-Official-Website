@@ -26,3 +26,10 @@ This is the repository for official website of **Indian Institute of Information
 9. Create a superuser: `python manage.py createsuperuser`.
 10. Collect static files: `python manage.py collectstatic`.
 11. Run server: `python manage.py runserver`.
+
+## Testing
+We use `tox` for testing purposes.
+Run all tests with the following command:
+```
+$ tox
+```
