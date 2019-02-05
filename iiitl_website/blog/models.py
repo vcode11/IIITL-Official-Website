@@ -4,7 +4,7 @@ from tinymce import models as tinymce_models
 
 
 class Post(models.Model):
-    
+
     """Model for blog post."""
 
     title = models.CharField(max_length=200)
