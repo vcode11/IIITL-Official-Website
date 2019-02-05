@@ -11,4 +11,4 @@ branches:
 matrix:
   include:
     - python: 3.6
-    - env: TOXENV=migrations
+    - env: TOXENV=lint
