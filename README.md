@@ -1,6 +1,6 @@
 # IIIT Lucknow Official Website
 
-![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg?style=for-the-badge)
+![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg?style=for-the-badge) ![](https://img.shields.io/travis/dojutsu-user/IIITL-Official-Website/master.svg?logo=travis&style=for-the-badge)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
 
