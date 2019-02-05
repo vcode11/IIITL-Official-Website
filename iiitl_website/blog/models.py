@@ -8,8 +8,10 @@ class Post(models.Model):
     """Model for blog post."""
 
     title = models.CharField(max_length=200)
+    featured_image = models.ImageField(upload_to='blog_images/',
+                                       default='blog_images/default.jpeg')
     content = tinymce_models.HTMLField()
-    date_added = models.DateTimeField(default=timezone.now())
+    date_added = models.DateTimeField(auto_now_add=True)
     data_published = models.DateTimeField(blank=True, null=True)
     is_draft = models.BooleanField(default=True)
     is_published = models.BooleanField(default=False)
