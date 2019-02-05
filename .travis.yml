@@ -5,7 +5,7 @@ python:
 matrix:
   include:
     - python: 3.6
-    - env: TOXENV=lint
+      env: TOXENV=lint
 install:
   - pip install tox-travis
 script:
