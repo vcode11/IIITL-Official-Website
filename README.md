@@ -13,7 +13,7 @@ This is the repository for official website of **Indian Institute of Information
 
 1. Clone this repo: `git clone https://github.com/dojutsu-user/IIITL-Official-Website.git`.
 2. Navigate into the folder 'IIITL-Official-Website': `cd IIITL-Official-Website/`.
-3. Install all the dependencies: `pipenv install`.
+3. Install all the dependencies: `pipenv install -r requirements.txt`.
 4. Create a `.env` file and write the `SECRET_KEY` in this form:
     ```
     SECRET_KEY='my-secret-key'
@@ -26,3 +26,10 @@ This is the repository for official website of **Indian Institute of Information
 9. Create a superuser: `python manage.py createsuperuser`.
 10. Collect static files: `python manage.py collectstatic`.
 11. Run server: `python manage.py runserver`.
+
+## Testing
+We use `tox` for testing purposes.
+Run all tests with the following command:
+```
+$ tox
+```

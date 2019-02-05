@@ -14,5 +14,5 @@ script:
   - tox
 branches:
   only:
-  - master
-  - heroku-deployment
+    - master
+    - heroku-deployment
