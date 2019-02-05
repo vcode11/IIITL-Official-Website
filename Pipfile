@@ -7,9 +7,9 @@ verify_ssl = true
 
 [packages]
 django-tinymce = "==2.8.0"
+tox = "==3.7.0"
 Django = "==2.1.5"
 Pillow = "==5.4.1"
-tox = "==3.7.0"
 
 [requires]
 python_version = "3.6"
